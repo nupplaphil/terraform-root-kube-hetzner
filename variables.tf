@@ -123,3 +123,9 @@ variable "network_region" {
   type        = string
   default     = "eu-central"
 }
+
+variable "ip_range" {
+  description = "The ip range of the vSwitch subnet"
+  type        = string
+  default     = "10.201.0.0/16"
+}
